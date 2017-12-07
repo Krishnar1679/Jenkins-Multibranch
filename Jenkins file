@@ -1,3 +1,4 @@
+properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/Krishnar1679/Jenkins-Multibranch.git/'], gitLabConnection(''), [$class: 'GitlabLogoProperty', repositoryName: ''], pipelineTriggers([githubPush()])])
 node {
  	// Clean workspace before doing anything
     deleteDir()
